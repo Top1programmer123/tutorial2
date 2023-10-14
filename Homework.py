@@ -15,8 +15,15 @@ def numbers_operations(x,y,z):
           return x+y
      elif z=='-':
           return x-y
-     else:
+     elif z=='*':
           return x*y
+     elif z=='/':
+          return x/y
+     elif z=='**':
+          return x**y
+
+     else:
+          return ('unknown operation')
 
 # print(numbers_operations(2,3,'+'))#5
 # print(numbers_operations(2,3,'-'))#-1
@@ -25,7 +32,8 @@ x=int(input("Enter your number:"))
 y=int(input("Enter your number:"))
 z=str(input())
 # print(xzy)
-print(numbers_operations(x,y,z))
+result=(numbers_operations(x,y,z))
+print(result)
 numbers_operations(x,y,z)
 
 
