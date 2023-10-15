@@ -1,3 +1,9 @@
+https://python.land/python-data-types/python-tuple
+https://python.land/python-data-types/python-list
+https://python.land/deep-dives/python-range
+https://python.land/python-data-types/dictionaries
+https://python.land/python-data-types/python-set
+https://python.land/introduction-to-python/python-for-loop
 Теория
 1) Список – последовательность элементов, объединенных в один контейнер. Главная особенность – они изменяемы.
 Элементы списка индексируются, состоят в основном из однотипных данных, перебираются, сохраняют порядок.
