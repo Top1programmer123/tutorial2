@@ -1,0 +1,110 @@
+https://python.land/python-data-types/python-tuple
+https://python.land/python-data-types/python-set
+https://python.land/deep-dives/python-range
+https://python.land/introduction-to-python/python-for-loop
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
+// Tasks
+
+Read this theaory to do tasks
+https://python.land/python-data-types/python-list
+https://python.land/python-data-types/dictionaries
+
+
+1)In the function passed a list of some integers, find the value 20 in it and, if it is present, replace it with 200.
+  Update the list only at the first occurrence of the number 20.
+Hint:For the first check if element exist in list, then just search hicher or in google how I can find first element in list, 
+
+print(func([1, 20, 21]))
+print(func([19, 2, 15]))
+print(func([20, 0, 20]))
+
+  print(list1)
+
+// Execution result
+[1, 200, 21]
+[19, 2, 15]
+[200, 0, 20]
+
+
+  
+  1) You need to create a list_sort(lst) function that sorts the list of numbers in descending order of their absolute value.
+def list_sort(lst):
+  ...
+
+  
+// Tests
+print(list_sort([1, 5, 77]))
+print(list_sort([19, 8.3, -4, 11, 0, 5]))
+print(list_sort([-33, -0.05, -4.18, 11.2, 13.12, 55, 7.1]))
+
+// Execution result
+[77, 5, 1]
+[19, 11, 8.3, 5, -4, 0]
+[55, -33, 13.12, 11.2, 7.1, -4.18, -0.05]
+
+2) At the input we have a list of strings of different lengths.
+It is necessary to write the all_eq(list) function, which will return a new list of strings of the same length.
+The length of the final line is determined based on the largest of them.
+If a particular line is shorter than the longest, add underscores from the right edge to the required number of characters.
+Do not change the location of the elements of the initial list.
+
+First you need to determine the length of each row in the list and find the maximum. Next, we add the characters "_" to the strings whose length is less.
+def all_eq(list):
+  ...
+
+
+// Tests
+print(all_eq(['крот', 'белка', 'выхухоль']))
+print(all_eq(['a', 'aa', 'aaa', 'aaaa', 'aaaaa']))
+print(all_eq(['qweasdqweas', 'q', 'rteww', 'ewqqqqq']))
+
+// Execution result
+['крот____', 'белка___', 'выхухоль']
+['a____', 'aa___', 'aaa__', 'aaaa_', 'aaaaa']
+['qweasdqweas', 'q__________', 'rteww______', 'ewqqqqq____']
+
+3) Write the to_dict(list) function, which takes an argument in the form of a list and returns a dictionary in which each element of the list is both a key and a value. 
+It is assumed that the list items will comply with the rules for setting keys in dictionaries.
+
+// Tests
+print(to_dict(['1', '2', 3]))
+print(to_dict(['grey', (2, 17), 3.11, -4]))
+print(to_dict(['qweasdqweas', 'q', 'rteww', 'ewqqqqq']))
+
+  // Execution result
+{'1': '1', '2': '2', 3: 3}
+{'grey': 'grey', (2, 17): (2, 17), 3.11: 3.11, -4: -4}
+{'qweasdqweas': 'qweasdqweas', 'q': 'q', 'rteww': 'rteww', 'ewqqqqq': 'ewqqqqq'}
+
+4) Jabrail decided to create the largest dictionary in the world. To do this, he came up with the biggest_dict(**kwargs) function,
+  which accepts an unlimited number of "key: value" parameters and updates the my_dict dictionary he created,
+  consisting of just one "first_one" element with the value "we can do it". Recreate this function.
+  1) Try find how to pass in func unlimeted atguments(Google, Books, Anywhere) 
+  2) Find how to update dict 
+
+  // Tests
+biggest_dict(k1=22, k2=31, k3=11, k4=91)
+biggest_dict(name='Елена', age=31, weight=61, eyes_color='grey')
+print(my_dict)
+
+  // Execution result
+{'first_one': 'we can do it', 'k1': 22, 'k2': 31, 'k3': 11, 'k4': 91, 'name': 'Елена', 'age': 31, 'weight': 61, 'eyes_color': 'grey'}
+
+  
+5)A string is given in the form of a random sequence of numbers from 0 to 9. 
+  Create a function that will accept these numbers as keys (i.e. the keys will be of the int type), and as values – the number of these numbers in the available sequence. 
+  To build a dictionary, create a count_it(sequence) function that accepts a string of digits.
+
+  
+  // Tests
+print(count_it('1111111111222'))
+print(count_it('123456789012133288776655353535353441111'))
+print(count_it('007767757744331166554444'))
+
+  // Execution result
+{2: 3, 1: 10}
+{9: 1, 0: 1, 2: 3, 4: 3, 6: 3, 7: 3, 8: 3, 1: 7, 5: 7, 3: 8}
+{0: 2, 3: 2, 1: 2, 6: 3, 5: 3, 7: 6, 4: 6}
