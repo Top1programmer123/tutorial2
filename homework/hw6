@@ -1,0 +1,47 @@
+1) Write a function to_dict(lst) that takes a list of arguments and returns a dictionary in which each element of the list is a key and a value.
+  It is assumed that the list elements will comply with the rules for specifying keys in dictionaries.
+
+print(to_dict([1, 2, 3, 4]))
+print(to_dict(['grey', (2, 17), 3.11, -4]))
+
+  // Expected result
+{1: 1, 2: 2, 3: 3, 4: 4}
+{'grey': 'grey', (2, 17): (2, 17), 3.11: 3.11, -4: -4}
+
+2) Read about *args **kwargs in Python
+ Write a biggest_dict(**kwargs) function that takes unlimited number of “key: value” parameters and updates the dictionary created, 
+my_dict = {}
+
+biggest_dict(k1=22, k2=31, k3=11, k4=91)
+biggest_dict(name='Елена', age=31, weight=61, eyes_color='grey')
+print(my_dict)my_dict
+  // Expected result
+{'k1': 22, 'k2': 31, 'k3': 11, 'k4': 91, 'name': 'Елена', 'age': 31, 'weight': 61, 'eyes_color': 'grey'}
+
+3)A string is given in the form of a random sequence of numbers from 0 to 9. 
+  Create a function that will accept these numbers as keys (i.e. the keys will be of the int type), and as values – the number of these numbers in the available sequence. 
+  To build a dictionary, create a count_it(sequence) function that accepts a string of digits.
+
+  
+  // Tests
+print(count_it('1111111111222'))
+print(count_it('123456789012133288776655353535353441111'))
+print(count_it('007767757744331166554444'))
+
+  // Execution result
+{2: 3, 1: 10}
+{9: 1, 0: 1, 2: 3, 4: 3, 6: 3, 7: 3, 8: 3, 1: 7, 5: 7, 3: 8}
+{0: 2, 3: 2, 1: 2, 6: 3, 5: 3, 7: 6, 4: 6}
+
+4)A dictionary with numerical values ​​is given. It is necessary to multiply them all and display them on the screen.
+my_dictionary = {'data1': 375, 'data2': 567, 'data3': -37, 'data4': 21}
+print(func(my_dictionary))
+  // Execution result
+-165209625
+
+  5)Create a dictionary in which the keys are numbers from 1 to 10, and the values ​​are the same numbers cubed.
+  
+  // Execution result
+  {1: 1, 2: 8, 3: 27, 4: 64, 5: 125, 6: 216, 7: 343, 8: 512, 9: 729, 10: 1000}
+
+
