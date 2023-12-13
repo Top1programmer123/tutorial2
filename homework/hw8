@@ -1,0 +1,72 @@
+Write answers on this questions, don't copy paste and learn it
+1)What built-in types are available in Python?
+ - mutable?
+ - immutable?
+2)What differentse between list and tuple
+3)What differentse between list and dict
+4)What differentse between set and list
+5)What differentse between set and dict
+6)How to convert a number to a string and in another data types?
+7)How is the //, %, **, =, == operator used in Python?
+8)What is the range() function and what are its parameters, ?
+9)Does a Python function have to return a value? Explain it
+10)How to change the list data type?
+11) What is iterable object, give examples
+12)How to make a list unique (no duplicate elements)?
+13)How to combine a list of strings into one. How to split a string into a list of strings?
+14)How write custom range in python?
+15)what additionals methods has dict
+16)what is *args, **kwargs  In what cases are they required?
+17)What is slices
+18)How to write function in one row
+19)There are two lists - keys and values. How to organize a dictionary from them?
+20)Where will the search be faster, and where will it be brute force and why: dict, list, set, tuple
+21)How argument values ​​are passed to a function or method?
+
+22)There is a tuple of three elements. Assign variables a, b, c their values
+23)What is hashable object
+24)How to tell if an object is hashable
+25)What is a set
+26)What are sets used for?
+27)What operations can be performed on sets
+28)What is a dict
+29)What are dicts used for?
+30)What operations can be performed on dicts
+31)What does the items method return?
+32)How to sort a list of dictionaries by a specific field
+Example
+users = [{'age': 30}, {'age': 20}, {'age': 10}]
+Result
+>>> [{'age': 10}, {'age': 20}, {'age': 30}]
+
+33)What can be a dictionary key. Which it can't. Why
+34)There are two lists - keys and values. How to make a dictionary from them
+35)Where will the search be faster, and where will it be brute force and why: dict, list, set, tuple
+36)What are args, kwargs. In what cases are they required?
+37)Is it possible to pass a function as an argument to another function
+38)Is it possible to declare a function inside another function. Where will she be seen?
+39)What is an iterable object?
+40)What is an iterator?
+
+Task (Do it before November 20)
+Write a calculator
+1)When you start the program it always works
+2)We can enter as many values ​​as we want using enter,  
+What it's mean
+3)It can be a number, a string, or an operator +,-,*,**,/,//
+4))If vaulue contains sting, pass this operation and save it in list, print wrong inputs after result
+Input value
+2
++
+'wrong value'
+-
+4
++
+8
+*
+'temp'
+/
+2
+expected result = (2+4+8)/2 = 7 
+# then print
+Wrong inputs = ['wrong value', 'temp']
