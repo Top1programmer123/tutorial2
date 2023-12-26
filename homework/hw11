@@ -1,0 +1,33 @@
+1)Write a program in which the user enters a string, and at the output we get even characters from the entered string.
+For example, at the input we get the string "pydocs", at the output "p,d,c" (0,2,4 — indexes).
+
+2)Write a function that returns True if the first and last numbers in the list match. If it does not match, return the value False.
+
+3)Our task is to write a program that counts how many times the substring "Jaba" occurs in this line.
+  After you count, print a message about how many times our substring appears in the string.
+str = "Jaba is a good programmer. Be like Jaba"
+4) Write a program that prints the following lines.(Don't use print(1), print(2,2) and etc.)
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5
+5)Write a program that receives two lists as input. 
+  Odd numbers are extracted from the first list, and even numbers from the second.
+  We add new items to the new list, and output the result.
+6)Write a program that outputs a multiplication table. The expected output is shown below.
+  Expected result 
+1 2 3 4 5 6 7 8 9 10
+2 4 6 8 10 12 14 16 18 20
+3 6 9 12 15 18 21 24 27 30
+4 8 12 16 20 24 28 32 36 40
+5 10 15 20 25 30 35 40 45 50
+6 12 18 24 30 36 42 48 54 60
+7 14 21 28 35 42 49 56 63 70
+8 16 24 32 40 48 56 64 72 80
+9 18 27 36 45 54 63 72 81 90
+10 20 30 40 50 60 70 80 90 100
+
+7)Write a function that accepts a word and returns a string with the letters of that word rearranged in alphabetical order.
+
+  + and go to  https://www.codewars.com/dashboard and solve 10 tasks on this site, I will check it 
